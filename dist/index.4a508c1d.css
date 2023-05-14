@@ -1,0 +1,53 @@
+body {
+  height: 100%;
+  background: #1f64cb;
+  margin: 0;
+  font-family: Open Sans, sans-serif;
+  overflow: hidden;
+}
+
+h1 {
+  color: #fff;
+  margin: 0;
+  font-size: 10vw;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer {
+  flex-flow: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 50px;
+  display: flex;
+  position: fixed;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+}
+
+.promo {
+  color: #fff;
+  margin: 0;
+  font-size: 16px;
+}
+
+.promo span {
+  color: #000;
+}
+
+.email {
+  color: #fff;
+  margin: 0;
+  font-size: 16px;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+.email:hover {
+  color: #000;
+}
+
+/*# sourceMappingURL=index.4a508c1d.css.map */
